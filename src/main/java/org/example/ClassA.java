@@ -3,7 +3,9 @@ package org.example;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component("cA")
+import java.util.Date;
+
+@Component("classA")
 public class ClassA implements InterfaceA {
 
     @Value("${my.user.email}")
